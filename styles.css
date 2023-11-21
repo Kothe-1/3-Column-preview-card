@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+@media screen and (max-width: 600px){
+    div#container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    div.section {
+        padding: 30px 40px 40px 40px;
+        text-align: left;
+    }
+    
+    div#sedans {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    div#luxury {
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    button.button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    div#container {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    div.section {
+        padding: 60px 40px 80px 40px;
+        text-align: left;
+    }
+    
+    div#sedans {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    div#luxury {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    button.button {
+    margin-top: 80px;
+    }
+    
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    opacity: 0.9;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Lexend Deca', Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    opacity: 0.7;
+}
+
+button {
+    font-size: 15px;
+    font-family: 'Lexend Deca', Helvetica, sans-serif;
+    background-color: white;
+    border: none;
+    color: #000;
+    mix-blend-mode: screen;
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    border: 2px solid white;
+}
+
+button.button {
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+}
+
+div#sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+div#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+div#luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+   }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+   }
